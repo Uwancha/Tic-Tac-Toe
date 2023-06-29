@@ -14,8 +14,8 @@ const displayController = function() {
 
 }
 
-const Players = function() {
-    function playerMark(mark) {
+const Players = () => {
+    const playerMark = (mark) => {
         return mark;
     }
 
@@ -27,6 +27,8 @@ const player = Players();
 const player1 = player.playerMark("X");
 const player2 = player.playerMark("O");
 
+let currentPlayer = player1
+
 const playersMove = (index) => {
     if (gameBoard.board[index] === "") {
     gameBoard.board[index] = currentPlayer;
@@ -35,10 +37,9 @@ const playersMove = (index) => {
     switchPlayer()
 }
 
-let currentPlayer = player1
 
 const switchPlayer = () => {
-    currentPlayer = player1 ? player2 : player1
+    currentPlayer = currentPlayer === player1 ? player2 : player1
 }
 
 
