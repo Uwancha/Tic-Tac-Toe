@@ -35,4 +35,4 @@ Feel free to use this project as a reference or starting point for your own Tic 
 
 ## Live Demo
 
-  [Here's also a demo](https://www.uwancha.github.io/Tic-Tac-Toe/)
+  [Here's also a demo](https://uwancha.github.io/Tic-Tac-Toe/)
