@@ -10,8 +10,8 @@ This is a simple Tic Tac Toe game built with factory functions and module patter
 
 ## Installation and Usage
 
-1. Clone the repository to your local machine using `git clone https://github.com/uwancha/tic-tac-toe.git`
-2. Navigate to the project directory using `cd tic-tac-toe`
+1. Clone the repository to your local machine using `git clone https://github.com/uwancha/Tic-Tac-Toe.git`
+2. Navigate to the project directory using `cd Tic-Tac-Toe`
 3. Open the `index.html` file in your web browser
 4. Play the game by clicking on the grid squares
 
@@ -23,7 +23,7 @@ This is a simple Tic Tac Toe game built with factory functions and module patter
 
 ## Acknowledgments
 
-- This project was completed as part of The Odin Project curriculum. [The Odin Project](https://www.theodinproject.com/home)
+- This project was completed as part of [The Odin Project curriculum.](https://www.theodinproject.com/home)
 
 ## Future Improvements
 
