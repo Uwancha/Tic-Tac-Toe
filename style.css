@@ -177,6 +177,21 @@ p {
   color:aliceblue;
 }
 
+.one {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly
+  
+}
+
+.two {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly
+  
+}
+
+
 
 
 /* For screen sizes smaller than 768px (mobile devices) */

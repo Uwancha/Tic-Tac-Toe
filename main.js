@@ -5,7 +5,8 @@ const btn = document.querySelector("#btn")
 const header = document.querySelector("header")
 const footer = document.querySelector("footer")
 const main = document.querySelector(".game-board")
-
+const playerOne = document.querySelector(".score-one")
+const playerTwo = document.querySelector(".score-two")
 
 const gameBoard = (function() {
     let board = ["", "", "", "", "", "", "", "", ""];
@@ -116,6 +117,8 @@ const gameLogic = (function() {
             if (_checkForWin(gameBoard.getBoard(), gamePlayer)) {
                 console.log(`${gamePlayer.getMark()} wins!`)
                 gamePlayer.score += 1
+                gamePlayer.getMark() === "X" ? playerOne.textContent = `${gamePlayer.score}` : playerTwo.textContent = `${gamePlayer.score}`
+                console.log(`${gamePlayer.score}`)
                 disp.textContent = `${gamePlayer.getMark()} wins!`;
                 resRestart.classList.add("show")
                 
@@ -187,5 +190,6 @@ btn.addEventListener("click", () => {
 })
 
 turnDisplay.textContent = `${currentPlayer.getMark()}'s turn`
-
+playerOne.textContent += `${player1.score}`
+playerTwo.textContent += `${player2.score}`
 
